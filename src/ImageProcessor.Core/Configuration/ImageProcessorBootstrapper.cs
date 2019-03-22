@@ -128,7 +128,6 @@ namespace ImageProcessor.Configuration
                                                 .FirstOrDefault();
                 }
 
-
                 if (this.Logger == null)
                 {
                     this.Logger = new DefaultLogger();
