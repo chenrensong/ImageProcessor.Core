@@ -8,7 +8,9 @@
 **ImageProcessor.Core** 基于[ImageProcessor](https://github.com/JimBobSquarePants/ImageProcessor) 采用 .Net Standard 2.0 构建，是一款轻量级的图像处理框架,使用Fluent Api方式构建更加易于使用。想阅读详细文档可访问 [http://imageprocessor.org/](http://imageprocessor.org/)
 
 
-新增马赛克效果
+##新增功能
+
+马赛克效果
 ```
 ImageFactory factory = new ImageFactory();
 factory.Load(@"C:\Users\chenr\Documents\Assets\test2.gif");
