@@ -49,5 +49,8 @@ namespace ImageProcessor.Imaging.Helpers
                 graphics.CompositingMode = CompositingMode.SourceCopy;
             }
         }
+
+
+    
     }
 }
