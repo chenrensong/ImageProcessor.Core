@@ -1,8 +1,27 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>latest</LangVersion>
+
+    <VersionPrefix>1.1.0</VersionPrefix>
+    <Version>1.1.0</Version>
+    <Authors>chenrensong</Authors>
+    <PackageProjectUrl>https://github.com/chenrensong/ImageProcessor.Core</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AssemblyName>ImageProcessor.Core</AssemblyName>
+    <PackageId>ImageProcessor.Core</PackageId>
+    <PackageTags>ImageProcessor.Core</PackageTags>
+    <RepositoryUrl>git://github.com/chenrensong/ImageProcessor.Core</RepositoryUrl>
+    <Description> A fluent wrapper around System.Drawing.Common for the processing of image files. http://imageprocessor.org</Description>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
